@@ -1,0 +1,44 @@
+# Environment and secret files
+.env
+*.env
+backend/.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases
+healthcare.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Node & Frontend builds
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Logs
+*.log
+
+# IDE and OS artifacts
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db

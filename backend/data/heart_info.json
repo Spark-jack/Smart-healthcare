@@ -1,0 +1,7 @@
+{
+  "data_source": "real",
+  "dataset_name": "UCI Cleveland Clinic Heart Disease",
+  "source_url": "https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.cleveland.data",
+  "row_count": 297,
+  "method": "direct_download"
+}

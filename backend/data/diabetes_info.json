@@ -1,0 +1,7 @@
+{
+  "data_source": "real",
+  "dataset_name": "CDC BRFSS 2015 Diabetes Health Indicators",
+  "source_url": "https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators",
+  "row_count": 253680,
+  "method": "ucimlrepo"
+}

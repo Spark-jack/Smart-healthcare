@@ -1,0 +1,107 @@
+{
+  "disease": "Diabetes",
+  "data_source": "real",
+  "dataset_name": "CDC BRFSS 2015 Diabetes Health Indicators",
+  "source_url": "https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators",
+  "row_count": 253680,
+  "date_trained": "2026-10-25T10:08:48.212564+00:00",
+  "feature_cols": [
+    "HighBP",
+    "HighChol",
+    "CholCheck",
+    "BMI",
+    "Smoker",
+    "Stroke",
+    "HeartDiseaseorAttack",
+    "PhysActivity",
+    "Fruits",
+    "Veggies",
+    "HvyAlcoholConsump",
+    "GenHlth",
+    "MentHlth",
+    "PhysHlth",
+    "DiffWalk",
+    "Sex",
+    "Age"
+  ],
+  "calibration_method": "isotonic",
+  "auc_roc": 0.8252,
+  "accuracy": 0.8655,
+  "precision": 0.5832,
+  "recall": 0.1219,
+  "f1_score": 0.2017,
+  "confusion_matrix": [
+    [
+      43051,
+      616
+    ],
+    [
+      6207,
+      862
+    ]
+  ],
+  "brier_score": 0.0977,
+  "expected_calibration_error": 0.0038,
+  "reliability_diagram": [
+    {
+      "bin_pred": 0.0337,
+      "observed_rate": 0.0338
+    },
+    {
+      "bin_pred": 0.1511,
+      "observed_rate": 0.1536
+    },
+    {
+      "bin_pred": 0.2443,
+      "observed_rate": 0.2499
+    },
+    {
+      "bin_pred": 0.3517,
+      "observed_rate": 0.3588
+    },
+    {
+      "bin_pred": 0.4567,
+      "observed_rate": 0.4341
+    },
+    {
+      "bin_pred": 0.5479,
+      "observed_rate": 0.528
+    },
+    {
+      "bin_pred": 0.6694,
+      "observed_rate": 0.6354
+    },
+    {
+      "bin_pred": 0.7553,
+      "observed_rate": 0.6701
+    },
+    {
+      "bin_pred": 0.8462,
+      "observed_rate": 0.75
+    },
+    {
+      "bin_pred": 1.0,
+      "observed_rate": 1.0
+    }
+  ],
+  "base_value": -1.8208,
+  "feature_friendly_names": {
+    "HighBP": "High Blood Pressure",
+    "HighChol": "High Cholesterol",
+    "CholCheck": "Recent Cholesterol Screening",
+    "BMI": "Body Mass Index (BMI)",
+    "Smoker": "Smoking Status",
+    "Stroke": "Stroke History",
+    "HeartDiseaseorAttack": "Coronary Heart History",
+    "PhysActivity": "Physical Exercise Level",
+    "Fruits": "Daily Fruit Intake",
+    "Veggies": "Daily Vegetable Intake",
+    "HvyAlcoholConsump": "Heavy Alcohol Consumption",
+    "GenHlth": "General Health Self-Rating",
+    "MentHlth": "Poor Mental Health Days",
+    "PhysHlth": "Poor Physical Health Days",
+    "DiffWalk": "Difficulty Walking / Mobility",
+    "Sex": "Biological Sex",
+    "Age": "Patient Age"
+  }
+}

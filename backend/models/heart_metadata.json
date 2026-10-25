@@ -1,0 +1,77 @@
+{
+  "disease": "Cardiovascular Disease",
+  "data_source": "real",
+  "dataset_name": "UCI Cleveland Clinic Heart Disease",
+  "source_url": "https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.cleveland.data",
+  "row_count": 297,
+  "date_trained": "2026-10-25T10:08:48.465437+00:00",
+  "feature_cols": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca"
+  ],
+  "calibration_method": "isotonic",
+  "auc_roc": 0.9459,
+  "accuracy": 0.8,
+  "precision": 0.9,
+  "recall": 0.6429,
+  "f1_score": 0.75,
+  "confusion_matrix": [
+    [
+      30,
+      2
+    ],
+    [
+      10,
+      18
+    ]
+  ],
+  "brier_score": 0.1206,
+  "expected_calibration_error": 0.1106,
+  "reliability_diagram": [
+    {
+      "bin_pred": 0.0,
+      "observed_rate": 0.0
+    },
+    {
+      "bin_pred": 0.1667,
+      "observed_rate": 0.0
+    },
+    {
+      "bin_pred": 0.3716,
+      "observed_rate": 0.3125
+    },
+    {
+      "bin_pred": 0.4725,
+      "observed_rate": 0.8462
+    },
+    {
+      "bin_pred": 1.0,
+      "observed_rate": 1.0
+    }
+  ],
+  "base_value": -0.1699,
+  "feature_friendly_names": {
+    "age": "Patient Age",
+    "sex": "Biological Sex",
+    "cp": "Chest Pain Type",
+    "trestbps": "Resting Blood Pressure",
+    "chol": "Serum Cholesterol",
+    "fbs": "Fasting Blood Sugar > 120",
+    "restecg": "Resting Electrocardiogram (ECG)",
+    "thalach": "Maximum Heart Rate Achieved",
+    "exang": "Exercise-Induced Angina",
+    "oldpeak": "ST Depression (Oldpeak)",
+    "slope": "Slope of Peak Exercise ST",
+    "ca": "Major Fluoroscopy Vessels Colored"
+  }
+}
